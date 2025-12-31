@@ -4026,3 +4026,15 @@ button {
     width: 42px;
   }
 }
+
+
+@media (hover: none), (pointer: coarse) {
+  html, body, * {
+    cursor: auto !important;
+  }
+
+  .cursor-inner,
+  .cursor-outer {
+    display: none !important;
+  }
+}
